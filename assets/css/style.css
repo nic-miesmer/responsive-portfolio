@@ -247,7 +247,21 @@ input[type=submit] {
 
 
 @media screen and (max-width: 640px) {
-  body {
-      background-color: lightgreen;
+  .container{
+    max-width:inherit;
   }
-}
+ 
+  .main-section{
+    width:100%;
+  }
+
+  .auth-image{
+    width:100%;
+  }
+
+  #logo{
+    width:100%
+  }
+ 
+
+ }
